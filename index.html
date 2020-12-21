@@ -65,17 +65,30 @@
   <br>
   <br>
   <label>Gender:</label>
-  <input type="radio button" placeholder="Male/Female" required/>
+  <br>
+  <input type="radio" id="Male" name="gender" value="male"/>
+  <label for="Male"> Male</label>
+  <br>
+  <input type="radio" id="Fenale" name="gender" value="female"/>
+  <label for="Female"> Female</label>
   <br>
   <br>
   <label>Phone:</label>
-  <input type="phone_number" placeholder="Phone Number"required/>
+  <input type="tel" id="phone" name="phone" placeholder="+234"required/>
   <br>
   <br>
-  <label>Submit:</label>
-  <button type="Submit"> Save </button>
-  
-  
+  <form action="/action_index.html">
+  <label for="States"> State of Origin: </label>
+  <select name="States" id="States">
+  <option value="Anambra"> Anambra </option>
+  <option value="Imo"> Imo </option>
+  <option value="Enugu"> Enugu </option>  
+  <option value="Lagos"> Lagos </option>
+  <br>
+  <br>
+  <br>
+  <input button="Submit"> 
+
 </form>
 
 
